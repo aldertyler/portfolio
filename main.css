@@ -13,6 +13,11 @@ body {
   background-color: darkgray;
 }
 
+nav {
+  background-color: lightgray;
+  height: 40px;
+}
+
 header {
   margin: 50px;
   background-color: lightgray;
@@ -37,6 +42,10 @@ h2 {
 
 .projects .project {
   flex: 1;
+}
+
+.project {
+  margin-bottom: 30px;
 }
 
 .link {
