@@ -15,10 +15,14 @@ body {
 }
 
 nav {
-  /* border-bottom: 1px solid white; */
   padding: 5px;
+  background-color: #3b3b3b;
   color: #009fd4;
   height: 30px;
+  font-family: "Monda", sans-serif;
+  position: sticky;
+  position: sticky;
+  top: 0;
 }
 
 nav ul li {
@@ -66,10 +70,6 @@ h2 {
 p {
   font-family: "Monda", sans-serif;
   line-height: 2;
-}
-
-nav {
-  font-family: "Monda", sans-serif;
 }
 
 span {
