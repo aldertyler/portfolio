@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      href="https://fonts.googleapis.com/css?family=Monda&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fugaz+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oleo+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
       integrity="sha256-7VVaJ5GDwFQiLIc+eNksQLUSSY5JNZtqv9o2BI8UGYg="
@@ -13,54 +25,66 @@
     <title>Tyler Alder's Portfolio</title>
   </head>
   <body>
-    <nav>Nav</nav>
+    <nav>
+      <ul
+      ><li class="left">Tyler Alder</li>
+      <li class="right"><a href="#bio">Bio</a></li>
+      <li class="right"><a href="#projects">Projects</a></li>
+      <li class="right"><a href="#contact">Contact</a></li>
+    </nav>
     <header>
-      <h1>Tyler Alder</h1>
-      <h2>Developer</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur.
+      <h1>TYL<span class="letter-e">E</span>R ALD<span class="letter-e">E</span>R</h1>
+      <p class="headline">Hi, I’m Tyler. I’m a web developer who’s passionate about learning and problem solving.</p>
+      <p class="bio" id="bio">
+        I am currently enrolled in the Full Stack Engineering program at
+        Thinkful. I love coding because it allows me to exercise my problem
+        solving muscles while building things that make other people’s lives
+        easier. I’m a next level puzzle nerd and I find nothing more satisfying
+        than fitting pieces together to bring a project to completion. I make my
+        home on Whidbey Island and when I’m not writing code, I can be found
+        scuba diving in the cold and dark waters of the Salish Sea or hiking
+        through the dramatic scenery of the North Cascades.
       </p>
     </header>
 
-    <section class="projects">
+    <section class="projects" id="projects">
       <div class="project">
-        <h2>Project1</h2>
-        <img src="https://via.placeholder.com/200" alt="" />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor
+        <h2>QUIZ APP</h2>
+        <img src="images/quiz-app-screenshot.png" alt="" />
+        <p class='description'>
+          This application quizzes the user on their knowledge of breathing compressed gases underwater. Built with html, css, and javascript.
+
         </p>
-        <a href="#" class="link">Code</a><a href="#">Live Site</a>
+        <a href="https://github.com/aldertyler/diving-quiz" target="_blank" class="link">Code</a><a href=" https://aldertyler.github.io/diving-quiz/
+" target="_blank" class="link">Live Site</a>
       </div>
       <div class="project">
         <h2>Project2</h2>
-        <img src="https://via.placeholder.com/200" alt="" />
-        <p>
+        <img src="https://via.placeholder.com/200x295" alt="" />
+        <p class="description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor
         </p>
-        <a href="#" class="link">Code</a><a href="#">Live Site</a>
+        <a href="#" target="_blank" class="link">Code</a><a href="#" target="_blank" class="link">Live Site</a>
       </div>
       <div class="project">
         <h2>Project3</h2>
-        <img src="https://via.placeholder.com/200" alt="" />
-        <p>
+        <img src="https://via.placeholder.com/200x295" alt="" />
+        <p class="description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor
         </p>
-        <a href="#" class="link">Code</a><a href="#">Live Site</a>
+        <a href="#" target="_blank" class="link">Code</a><a href="#" target="_blank" class="link">Live Site</a>
       </div>
     </section>
 
-    <footer>
+    <footer id="contact">
       <ul>
-        <li><a href="#">github</a></li>
-        <li><a href="#">email</a></li>
-        <li><a href="#">linkedin</a></li>
+        <li><a href="https://github.com/aldertyler" target="_blank" class="link" ><img border="0" alt="github" src="images/github.png" width="50" height="50"></a></li>
+        <li><a href="#" target="_blank" class="link"><img border="0" alt="email" src="images/gmail.png" width="50" height="50"></a></li>
+        <li><a href="https://www.linkedin.com/in/tyler-alder-93321b133/" target="_blank" class="link"><img border="0" alt="linkedin" src="images/linkedin.png" width="50" height="50"></a></li>
+        <!-- <li><a href="https://twitter.com/TylerAlder" target="_blank" class="link"><img border="0" alt="twitter" src="images/twitter.png" width="50" height="50"></a></li> -->
+      
       </ul>
     </footer>
   </body>

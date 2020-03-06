@@ -10,27 +10,84 @@
 }
 
 body {
-  background-color: darkgray;
+  background-image: linear-gradient(to right, #111111, #3b3b3b);
+  color: white;
 }
 
 nav {
-  background-color: lightgray;
-  height: 40px;
+  /* border-bottom: 1px solid white; */
+  padding: 5px;
+  color: #009fd4;
+  height: 30px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+a:hover {
+  color: #00ff7f;
+}
+
+a {
+  color: #009fd4;
+}
+
+.left {
+  float: left;
+  margin-left: 15px;
 }
 
 header {
   margin: 50px;
-  background-color: lightgray;
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 45px;
   margin-bottom: 10px;
+  font-family: "Fugaz One", cursive;
+}
+.letter-e {
+  font-family: "Oleo Script", cursive;
+}
+
+.headline {
+  margin-bottom: 20px;
 }
 
 h2 {
+  font-family: "Fugaz One", cursive;
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  line-height: 2;
+  color: #009fd4;
+}
+
+p {
+  font-family: "Monda", sans-serif;
+  line-height: 2;
+}
+
+nav {
+  font-family: "Monda", sans-serif;
+}
+
+span {
+  color: #009fd4;
+}
+
+.bio {
+  text-align: left;
+}
+
+.description {
+  text-align: left;
+  margin: 20px;
+}
+
+.link {
+  font-family: "Monda", sans-serif;
+  color: #009fd4;
 }
 
 .projects {
@@ -52,14 +109,39 @@ h2 {
   margin: 5px 10px;
 }
 
-.skills ul li {
-  margin: 0 10px;
+footer {
+  border-top: 1px solid white;
+  font-family: "Monda", sans-serif;
+  padding: 5px;
 }
 
-footer {
-  background-color: lightgray;
-}
 footer ul li {
   display: inline-block;
   margin: 0 10px;
+}
+
+@media screen and (min-width: 400px) {
+  .right {
+    float: right;
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .projects {
+    flex-direction: row;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .main-footer {
+    margin-top: auto;
+  }
+  /*.project {
+    margin: 20px 0;
+  }*/
 }
