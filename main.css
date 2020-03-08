@@ -14,10 +14,11 @@ body {
   color: white;
 }
 
-nav {
+.navbar {
   padding: 5px;
+  color: white;
   background-color: #3b3b3b;
-  color: #009fd4;
+
   height: 30px;
   font-family: "Monda", sans-serif;
   position: sticky;
@@ -29,12 +30,20 @@ nav ul li {
   display: inline;
 }
 
-a:hover {
-  color: #00ff7f;
+nav ul li a {
+  color: inherit;
 }
 
-a {
+.right:hover {
   color: #009fd4;
+}
+
+.link {
+  color: #009fd4;
+}
+
+.link:hover {
+  color: #00ff7f;
 }
 
 .left {
