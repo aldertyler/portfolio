@@ -88,6 +88,7 @@ span {
 .link {
   font-family: "Monda", sans-serif;
   color: #009fd4;
+  margin: 10px;
 }
 
 .projects {
@@ -101,17 +102,35 @@ span {
   flex: 1;
 }
 
+.screenshot {
+  width: 200px;
+  height: 295px;
+}
+
 .project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 30px;
 }
 
-.link {
-  margin: 5px 10px;
+.skills {
+  margin-top: 10px;
+}
+.skills li {
+  display: inline;
+  margin-right: 5px;
+  font-family: "Monda", sans-serif;
+}
+
+.code-info {
+  margin-top: auto;
 }
 
 footer {
   border-top: 1px solid white;
   font-family: "Monda", sans-serif;
+  color: #009fd4;
   padding: 5px;
 }
 
