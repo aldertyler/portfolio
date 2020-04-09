@@ -114,7 +114,15 @@ span {
 .screenshot {
   width: 200px;
   height: 295px;
-  box-shadow: 5px 10px 30px black;
+  /* box-shadow: 5px 10px 30px #009fd4; */
+  /* border: 1px solid #009fd4; */
+}
+
+.screenshot:hover {
+  /* box-shadow: 5px 10px 30px black; */
+  box-shadow: 5px 10px 30px #001016;
+  transform: scale(1.2);
+  /* border: 1px solid #00ff7f; */
 }
 
 .project {
