@@ -16,14 +16,16 @@ body {
 
 .navbar {
   padding: 5px;
-  color: white;
-  background-color: #3b3b3b;
+  color: #009fd4;
+  /* background-color: #3b3b3b; */
+  background-image: linear-gradient(to right, #111111, #3b3b3b);
 
   height: 30px;
   font-family: "Monda", sans-serif;
   position: sticky;
 
   top: 0;
+  border-bottom: 1px solid white;
 }
 
 nav ul li {
@@ -35,7 +37,7 @@ nav ul li a {
 }
 
 .right:hover {
-  color: #009fd4;
+  color: #00ff7f;
 }
 
 .link {
