@@ -36,7 +36,7 @@ nav ul li a {
   color: inherit;
 }
 
-.right:hover {
+.green:hover {
   color: #00ff7f;
 }
 
@@ -44,9 +44,9 @@ nav ul li a {
   color: #009fd4;
 }
 
-.link:hover {
+/* .link:hover {
   color: #00ff7f;
-}
+} */
 
 .left {
   float: left;
@@ -122,9 +122,12 @@ span {
 
 .grow:hover {
   /* box-shadow: 5px 10px 30px black; */
-  box-shadow: 5px 10px 30px #001016;
   transform: scale(1.2);
   /* border: 1px solid #00ff7f; */
+}
+
+.shadow:hover {
+  box-shadow: 5px 10px 30px #001016;
 }
 
 .project {
